@@ -74,11 +74,29 @@ const World = () => (
           variants={fadeIn("up", "tween", 0.3, 1)}
           className="absolute t-[100px] flex w-full h-[550px]"
         ></motion.div> */}
-        <div className="absolute h-[150px] w-[300px] bottom-[150px] left-[150px] ">
+        <div className="absolute bottom-[150px] w-[208px] left-[150px] rounded-[24px] bg-[#5D6680]">
+          <img
+            src="world-upside-glow.png"
+            alt="world"
+            className="absolute scale-[200%] "
+          />
           <img
             src="world-upside.png"
             alt="world"
-            className="relative top-[20px]"
+            className="relative  p-[6px] rounded-[24px]"
+          />
+        </div>
+
+        <div className="absolute bottom-[150px] w-[192px] right-[150px] rounded-[24px] bg-[#5D6680]">
+          <img
+            src="world-labs-glow.png"
+            alt="world"
+            className="absolute scale-[200%] "
+          />
+          <img
+            src="world-labs.png"
+            alt="world"
+            className="relative  p-[6px] rounded-[24px]"
           />
         </div>
       </motion.div>
