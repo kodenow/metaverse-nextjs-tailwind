@@ -41,7 +41,7 @@ const World = () => (
           <img
             src="people-01.png"
             alt="people"
-            className="absolute w-full h-full "
+            className="relative w-full h-full "
           />
         </div>
 
@@ -49,22 +49,36 @@ const World = () => (
           <img
             src="people-02-glow.png"
             alt="people"
-            className="w-full h-full"
+            className="absolute top-[-30px] left-[-30px] max-w-[200%]"
           />
           <img
-            src="/people-02.png"
+            src="people-02.png"
             alt="people"
-            className="absolute w-full h-full"
+            className="relative w-full h-full"
           />
         </div>
 
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
-          <img src="people-03.png" alt="people" className="w-full h-full" />
-
           <img
             src="people-03-glow.png"
             alt="people"
-            className="absolute top-[-30px] left-[-30px] max-w-[200%] z-100"
+            className="absolute top-[-30px] left-[-30px] max-w-[200%]"
+          />
+          <img
+            src="people-03.png"
+            alt="people"
+            className="relative w-full h-full"
+          />
+        </div>
+        {/* <motion.div
+          variants={fadeIn("up", "tween", 0.3, 1)}
+          className="absolute t-[100px] flex w-full h-[550px]"
+        ></motion.div> */}
+        <div className="absolute h-[150px] w-[300px] bottom-[150px] left-[150px] ">
+          <img
+            src="world-upside.png"
+            alt="world"
+            className="relative top-[20px]"
           />
         </div>
       </motion.div>
