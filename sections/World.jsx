@@ -36,7 +36,7 @@ const World = () => (
           <img
             src="people-01-glow.png"
             alt="people"
-            className="absolute top-[-30px] left-[-30px] max-w-[200%]"
+            className="absolute scale-[250%]"
           />
           <img
             src="people-01.png"
@@ -49,7 +49,7 @@ const World = () => (
           <img
             src="people-02-glow.png"
             alt="people"
-            className="absolute top-[-30px] left-[-30px] max-w-[200%]"
+            className="absolute scale-[250%]"
           />
           <img
             src="people-02.png"
@@ -62,7 +62,7 @@ const World = () => (
           <img
             src="people-03-glow.png"
             alt="people"
-            className="absolute top-[-30px] left-[-30px] max-w-[200%]"
+            className="absolute scale-[250%]"
           />
           <img
             src="people-03.png"
@@ -110,7 +110,7 @@ const World = () => (
           />
         </div>
 
-        <div className="absolute bottom-[150px] w-[192px] right-[150px] rounded-[24px] bg-[#5D6680]">
+        <div className="absolute top-[60px] w-[192px] right-[150px] rounded-[24px] bg-[#5D6680]">
           <div className="relative top-[80px]">
             <img
               src="mini-man-1.png"
