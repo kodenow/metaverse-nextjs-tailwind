@@ -34,14 +34,14 @@ const World = () => (
 
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img
+            src="people-01-glow.png"
+            alt="people"
+            className="absolute top-[-30px] left-[-30px] max-w-[200%]"
+          />
+          <img
             src="people-01.png"
             alt="people"
             className="absolute w-full h-full "
-          />
-          <img
-            src="people-01-glow.png"
-            alt="people"
-            className="absolute top-[-30px] left-[-30px] max-w-[200%] z-10"
           />
         </div>
 
@@ -60,10 +60,11 @@ const World = () => (
 
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-03.png" alt="people" className="w-full h-full" />
+
           <img
             src="people-03-glow.png"
             alt="people"
-            className="w-full h-full"
+            className="absolute top-[-30px] left-[-30px] max-w-[200%] z-100"
           />
         </div>
       </motion.div>
