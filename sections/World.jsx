@@ -75,6 +75,29 @@ const World = () => (
           className="absolute t-[100px] flex w-full h-[550px]"
         ></motion.div> */}
         <div className="absolute bottom-[150px] w-[208px] left-[150px] rounded-[24px] bg-[#5D6680]">
+          <div className="relative top-[90px]">
+            <img
+              src="mini-man-1.png"
+              alt="world"
+              className="absolute z-10 left-[35px]"
+            />
+            <img
+              src="mini-man-2.png"
+              alt="world"
+              className="absolute z-10 left-[24px]"
+            />
+            <img
+              src="mini-man-3.png"
+              alt="world"
+              className="absolute z-10 left-[13px]"
+            />
+            <p className="absolute z-10 top-[5px] left-[65px] text-white text-[12px]">
+              +478 has joined
+            </p>
+            <h2 className="absolute z-10  top-[30px] left-[20px] text-white">
+              The upside down
+            </h2>
+          </div>
           <img
             src="world-upside-glow.png"
             alt="world"
@@ -88,6 +111,29 @@ const World = () => (
         </div>
 
         <div className="absolute bottom-[150px] w-[192px] right-[150px] rounded-[24px] bg-[#5D6680]">
+          <div className="relative top-[80px]">
+            <img
+              src="mini-man-1.png"
+              alt="world"
+              className="absolute z-10 left-[35px]"
+            />
+            <img
+              src="mini-man-2.png"
+              alt="world"
+              className="absolute z-10 left-[24px]"
+            />
+            <img
+              src="mini-man-3.png"
+              alt="world"
+              className="absolute z-10 left-[13px]"
+            />
+            <p className="absolute z-10 top-[5px] left-[65px] text-white text-[12px]">
+              +264 has joined
+            </p>
+            <h2 className="absolute z-10  top-[30px] left-[20px] text-white">
+              Hawkins Labs
+            </h2>
+          </div>
           <img
             src="world-labs-glow.png"
             alt="world"
