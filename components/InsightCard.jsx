@@ -13,9 +13,9 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
       <img
         src={imgUrl}
         alt=""
-        className="overflow-hidden md:basis-[35%] basis-[25%] rounded-[32px] "
+        className=" overflow-hidden sm:w-[30%] md:basis-[40%] lg:basis-[40%] rounded-[32px] "
       />
-      <div className="basis-[50%] justify-between items-center">
+      <div className="sm:w-[60%]  md:basis-[50%] lg:basis-[40%] justify-between items-center">
         <h4 className="font-normal text-[26px] text-white">{title}</h4>
         <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
           {subtitle}
