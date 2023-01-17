@@ -8,6 +8,8 @@ import { fadeIn, staggerContainer } from "../utils/motion";
 
 const World = () => (
   <section className={`${styles.paddings} relative z-10`}>
+    <div class="absolute gradient-06 z-0"></div>
+
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -30,9 +32,9 @@ const World = () => (
         variants={fadeIn("up", "tween", 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
-        <img src="/map.png" alt="map" className="w-full h-full object-cover" />
+        <img src="/map.png" alt="map" className="absolute" />
 
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+        <div className="absolute bottom-[150px] right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img
             src="people-01-glow.png"
             alt="people"
