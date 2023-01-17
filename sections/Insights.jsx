@@ -21,40 +21,12 @@ const Insights = () => (
         title={<>Insight about metaverse</>}
         textStyles="text-center"
       />
+      <div className="mt-[50px] flex flex-col gap-[30px]">
+        {insights.map((item, index) => (
+          <InsightCard key={`insight-${index}`} {...item} index={index + 1} />
+        ))}
+      </div>
     </motion.div>
-    <div className="flex flex-row space-x-4 2xl:max-w-[1280px] mx-auto justify-between">
-      <img
-        src="/insight-1.png"
-        alt=""
-        className="overflow-hidden basis-[25%] rounded-[32px] "
-      />
-      {/* <div className="basis-1/4">
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae
-          modi maxime veritatis? Repellendus velit pariatur dolorem quae!
-          Necessitatibus ut deleniti doloremque magni reprehenderit, blanditiis,
-          neque soluta, nisi repellat vitae quaerat.
-        </p>
-      </div> */}
-      <div className="basis-[50%] w-full justify-between items-center">
-        <h4 className="font-normal lg:text-[42px] text-[26px] text-white">
-          The launch of the Metaverse
-        </h4>
-        <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae
-          modi maxime veritatis? Repellendus velit pariatur dolorem quae!
-          Necessitatibus ut deleniti doloremque magni reprehenderit, blanditiis,
-          neque soluta, nisi repellat vitae quaerat.
-        </p>
-      </div>
-      <div className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white">
-        <img
-          src="/arrow.svg"
-          alt="arrow"
-          className="w-[40%] h-[40%] object-contain"
-        />
-      </div>
-    </div>
   </section>
 );
 
