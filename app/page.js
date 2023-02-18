@@ -13,7 +13,7 @@ import {
 const Page = () => (
   <div className="bg-primary-black overflow-hidden">
     <Navbar />
-    <Hero />
+    {/* <Hero /> */}
     <About />
     <Explore />
     <GetStarted />
