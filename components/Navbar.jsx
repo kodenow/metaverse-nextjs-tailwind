@@ -8,37 +8,41 @@ import Image from "next/image";
 
 const Navbar = () => (
   <div>
-    <div className="flex justify-center items-center bg-[##4e4c4c] p-1 z-10">
-      <p className="text-white">Free template by</p>
-      <Image
-        className="ml-2 mr-1"
-        src="/logoSymbol.png"
-        alt="kodenowLogo"
-        width="30"
-        height="30"
-      />
-      <Image
-        className="mr-3"
-        src="/KodeNowLogo.png"
-        alt="kodenowLogo"
-        width="126"
-        height="20"
-      />
-      <h1 className="text-white text-[20px] mr-2">|</h1>
-      <p className="text-white">Get code here</p>
-      <a
-        href="https://github.com/kodenow/metaverse-nextjs-tailwind"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+    <div className="flex flex-col md:flex-row md:justify-center md:items-center bg-[#4e4c4c] p-1 z-10">
+      <div className="flex justify-center items-center">
+        <p className="text-white">Free template by</p>
         <Image
-          className="-ml-2"
-          src="/github.png"
+          className="ml-2 mr-1"
+          src="/logoSymbol.png"
           alt="kodenowLogo"
-          width="135"
-          height="50"
+          width="30"
+          height="30"
         />
-      </a>
+        <Image
+          className="mr-3"
+          src="/KodeNowLogo.png"
+          alt="kodenowLogo"
+          width="126"
+          height="20"
+        />
+      </div>
+      <div className="flex justify-center items-center">
+        <h1 className="text-white text-[20px] mr-2 hidden md:block">|</h1>
+        <p className="text-white">Get code here</p>
+        <a
+          href="https://github.com/kodenow/metaverse-nextjs-tailwind"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            className="-ml-2"
+            src="/github.png"
+            alt="kodenowLogo"
+            width="135"
+            height="50"
+          />
+        </a>
+      </div>
     </div>
     <motion.nav
       variants={navVariants}

@@ -13,8 +13,6 @@ const Explore = () => {
 
   return (
     <section className={`${styles.paddings}`} id="explore">
-    <div className=" gradient-03 z-0" />
-
       <motion.div
         variants={staggerContainer}
         initial="hidden"
